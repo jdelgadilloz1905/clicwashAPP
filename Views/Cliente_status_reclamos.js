@@ -29,9 +29,9 @@ export default class Cliente_proximas_ordenes extends Component {
   }
 
 
-  baseURL = 'htpps://clicwash.com/php/App/obtener_ordenes_pendientes.php';
+  baseURL = 'https://clicwash.com/php/App/obtener_ordenes_pendientes.php';
 
-  baseURLRemove = 'htpps://clicwash.com/php/App/cancelar_orden_cliente.php';
+  baseURLRemove = 'https://clicwash.com/php/App/cancelar_orden_cliente.php';
 
   getData = (ev) =>{
 

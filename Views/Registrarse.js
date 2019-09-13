@@ -54,7 +54,7 @@ export default class Registrarse extends Component {
           //alert(this.state.correo);
 
 
-           fetch('htpps://clicwash.com/php/App/registrarse.php', {
+           fetch('https://clicwash.com/php/App/registrarse.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',

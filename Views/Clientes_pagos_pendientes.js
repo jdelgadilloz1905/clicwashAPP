@@ -24,7 +24,7 @@ export default class Clientes_pagos_pendientes extends Component {
    };
   }
 
-  baseURL = 'htpps://clicwash.com/php/App/api_reembolso_cliente.php';
+  baseURL = 'https://clicwash.com/php/App/api_reembolso_cliente.php';
 
   componentDidMount(){
       

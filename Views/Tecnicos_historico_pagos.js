@@ -24,7 +24,7 @@ export default class Tecnicos_historico_pagos extends Component {
 
    };
   }
-  baseURL = 'htpps://clicwash.com/php/App/api_status_pagos_solicitados.php';
+  baseURL = 'https://clicwash.com/php/App/api_status_pagos_solicitados.php';
 
   getData = (ev) =>{
 

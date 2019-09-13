@@ -31,7 +31,7 @@ export default class Lavados_Agendados extends Component {
       error: null
     });
     
-    fetch('htpps://clicwash.com/php/App/obtener_citas_schedule.php', {
+    fetch('https://clicwash.com/php/App/obtener_citas_schedule.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',
@@ -99,7 +99,7 @@ export default class Lavados_Agendados extends Component {
       if(horaVisitaTemp >= this.state.data[index]["hora"] && horaVisitaTemp <= this.state.data[index]["hora_cierre"]){
 
 
-        fetch('htpps://clicwash.com/php/App/api_tomar_cita.php', {
+        fetch('https://clicwash.com/php/App/api_tomar_cita.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',

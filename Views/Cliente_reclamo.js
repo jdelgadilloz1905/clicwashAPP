@@ -80,7 +80,7 @@ export default class Cliente_reclamo extends Component {
 
         //API que usa fetch para ingresar datos a la base de datos a través del script php
 
-        fetch('htpps://clicwash.com/php/App/upload_crear_reclamo.php',{
+        fetch('https://clicwash.com/php/App/upload_crear_reclamo.php',{
         method: 'POST',
         headers: {
             'Content-Type': 'multipart/form-data',

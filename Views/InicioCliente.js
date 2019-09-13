@@ -44,10 +44,10 @@ export default class InicioCliente extends Component {
       paquete_detalle14:'',
       paquete_detalle15:'',
       paquete_detalles:[],
-      baseURL_1 : 'htpps://clicwash.com/php/App/obtener_info_paquete_1.php',
-      baseURL_2 : 'htpps://clicwash.com/php/App/obtener_info_paquete_2.php',
-      baseURL_3 : 'htpps://clicwash.com/php/App/obtener_info_paquete_3.php',
-      baseURL_4 : 'htpps://clicwash.com/php/App/obtener_info_paquete_4.php',
+      baseURL_1 : 'https://clicwash.com/php/App/obtener_info_paquete_1.php',
+      baseURL_2 : 'https://clicwash.com/php/App/obtener_info_paquete_2.php',
+      baseURL_3 : 'https://clicwash.com/php/App/obtener_info_paquete_3.php',
+      baseURL_4 : 'https://clicwash.com/php/App/obtener_info_paquete_4.php',
       id_paquete:1
 
 

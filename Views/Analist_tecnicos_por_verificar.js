@@ -14,7 +14,7 @@ export default class Analist_tecnicos_por_verificar extends React.Component {
             error: null
         }
     }
-    baseURL = 'htpps://clicwash.com/php/App/obtener_tecnicos_por_validar.php';
+    baseURL = 'https://clicwash.com/php/App/obtener_tecnicos_por_validar.php';
     
     getData = (ev)=>{
         this.setState({loaded:false, error: null});

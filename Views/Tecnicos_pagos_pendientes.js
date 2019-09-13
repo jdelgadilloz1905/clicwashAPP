@@ -28,9 +28,9 @@ export default class Tecnicos_pagos_pendientes extends Component {
 
    };
   }
-  baseURL = 'htpps://clicwash.com/php/App/obtener_datos_lavador.php';
-  baseObtenerMontoURL = 'htpps://clicwash.com/php/App/api_monto_obtener_lavador.php';
-  baseSolicitarMontoURL = 'htpps://clicwash.com/php/App/api_monto_solicitar_lavador.php';
+  baseURL = 'https://clicwash.com/php/App/obtener_datos_lavador.php';
+  baseObtenerMontoURL = 'https://clicwash.com/php/App/api_monto_obtener_lavador.php';
+  baseSolicitarMontoURL = 'https://clicwash.com/php/App/api_monto_solicitar_lavador.php';
 
  componentDidMount(){
    

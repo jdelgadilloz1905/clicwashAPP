@@ -29,7 +29,7 @@ export default class Cliente_Historico_lavados extends Component {
     };
 }
 
-baseURL = 'htpps://clicwash.com/php/App/obtener_ordenes_pendientes.php';
+baseURL = 'https://clicwash.com/php/App/obtener_ordenes_pendientes.php';
 
 getData = (ev) =>{
 

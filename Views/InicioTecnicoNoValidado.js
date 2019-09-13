@@ -186,7 +186,7 @@ subirFoto = ()=>{
  
 
     //API that use fetch to input data to database via backend php script
-    fetch('htpps://clicwash.com/php/App/subir_data_tecnico_registro.php',{
+    fetch('https://clicwash.com/php/App/subir_data_tecnico_registro.php',{
         method: 'POST',
         headers: {
             'Content-Type': 'multipart/form-data',

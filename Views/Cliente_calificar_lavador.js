@@ -28,9 +28,9 @@ export default class Cliente_calificar_lavador extends Component {
   }
 
 
-  baseURL = 'htpps://clicwash.com/php/App/obtener_ordenes_pendientes.php';
+  baseURL = 'https://clicwash.com/php/App/obtener_ordenes_pendientes.php';
 
-  baseURLCalificar = 'htpps://clicwash.com/php/App/subir_calificacion_cliente.php';
+  baseURLCalificar = 'https://clicwash.com/php/App/subir_calificacion_cliente.php';
 
   getData = (ev) =>{
 

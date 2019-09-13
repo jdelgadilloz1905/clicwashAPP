@@ -54,7 +54,7 @@ export default class InicioNumeroNoValidado extends Component {
           //alert(this.state.correo);
 
 
-           fetch('htpps://clicwash.com/php/App/sendCode.php', {
+           fetch('https://clicwash.com/php/App/sendCode.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',

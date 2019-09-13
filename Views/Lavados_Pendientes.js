@@ -28,7 +28,7 @@ export default class Lavados_Pendientes extends Component {
       error: null
     });
     
-    fetch('htpps://clicwash.com/php/App/obtener_ordenes_pendientes.php', {
+    fetch('https://clicwash.com/php/App/obtener_ordenes_pendientes.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',
@@ -66,7 +66,7 @@ export default class Lavados_Pendientes extends Component {
 
   cancelarCita = (id_cita) => {
 
-    fetch('htpps://clicwash.com/php/App/cancelar_cita_tecnico.php', {
+    fetch('https://clicwash.com/php/App/cancelar_cita_tecnico.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',
@@ -114,7 +114,7 @@ export default class Lavados_Pendientes extends Component {
   heLlegado = (id_cita, index) =>{
 
     
-    fetch('htpps://clicwash.com/php/App/tecnico_iniciar_limpieza.php', {
+    fetch('https://clicwash.com/php/App/tecnico_iniciar_limpieza.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',

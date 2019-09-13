@@ -251,7 +251,7 @@ encenderDomingo =()=>{  this.setState({ tecnico_trabajo_domingo: 'on' }); }
    
  
 
-    fetch('htpps://clicwash.com/php/App/update_lavador.php', {
+    fetch('https://clicwash.com/php/App/update_lavador.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',

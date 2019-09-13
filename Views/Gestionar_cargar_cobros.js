@@ -37,7 +37,7 @@ export default class Gestionar_cargar_cobros extends Component {
             error: null
         });
       
-        fetch('htpps://clicwash.com/php/App/api_gestionar_cargar_cobros.php', {
+        fetch('https://clicwash.com/php/App/api_gestionar_cargar_cobros.php', {
                 method: 'POST',
                 header: {
                     Accept: 'application/json',
@@ -80,7 +80,7 @@ export default class Gestionar_cargar_cobros extends Component {
   
       
 
-    //   fetch('htpps://clicwash.com/php/App/api_procesar_cobro_final.php', {
+    //   fetch('https://clicwash.com/php/App/api_procesar_cobro_final.php', {
     //         method: 'POST',
     //         header: {
     //             Accept: 'application/json',
@@ -137,7 +137,7 @@ export default class Gestionar_cargar_cobros extends Component {
         let cantidad = this.state.cantidad;
         
 
-          fetch('htpps://clicwash.com/php/App/api_agregar_servicio_especifico.php', {
+          fetch('https://clicwash.com/php/App/api_agregar_servicio_especifico.php', {
             method: 'POST',
             header: {
                 Accept: 'application/json',
@@ -188,7 +188,7 @@ export default class Gestionar_cargar_cobros extends Component {
         let cantidad = this.state.cantidad;
         
 
-          fetch('htpps://clicwash.com/php/App/api_eliminar_servicio_especifico.php', {
+          fetch('https://clicwash.com/php/App/api_eliminar_servicio_especifico.php', {
             method: 'POST',
             header: {
                 Accept: 'application/json',

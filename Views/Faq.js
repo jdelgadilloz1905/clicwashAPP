@@ -13,7 +13,7 @@ export default class App extends React.Component {
             error: null
         }
     }
-    baseURL = 'htpps://clicwash.com/php/App/obtener_faq.php';
+    baseURL = 'https://clicwash.com/php/App/obtener_faq.php';
     
     getData = (ev)=>{
         this.setState({loaded:false, error: null});

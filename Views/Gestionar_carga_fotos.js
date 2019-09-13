@@ -39,7 +39,7 @@ export default class Gestionar_carga_fotos extends Component {
             error: null
         });
       
-        fetch('htpps://clicwash.com/php/App/api_obtener_fotos_cita.php', {
+        fetch('https://clicwash.com/php/App/api_obtener_fotos_cita.php', {
             method: 'POST',
             header: {
                 Accept: 'application/json',
@@ -90,7 +90,7 @@ export default class Gestionar_carga_fotos extends Component {
 
         let id_cita = this.state.id_cita;
         
-          fetch('htpps://clicwash.com/php/App/api_eliminar_foto_cita.php', {
+          fetch('https://clicwash.com/php/App/api_eliminar_foto_cita.php', {
             method: 'POST',
             header: {
                 Accept: 'application/json',
@@ -166,7 +166,7 @@ export default class Gestionar_carga_fotos extends Component {
             type: `image/${fileExtension_archivo}`
         });
 
-        fetch('htpps://clicwash.com/php/App/api_upload_foto_cita.php',{
+        fetch('https://clicwash.com/php/App/api_upload_foto_cita.php',{
           method: 'POST',
           headers: {
               'Content-Type': 'multipart/form-data',

@@ -44,7 +44,7 @@ export default class Analist_tecnicos_por_verificar_2 extends Component {
 
 
   procesarTecnico = () => {
-           fetch('htpps://clicwash.com/php/App/procesar_tecnico.php', {
+           fetch('https://clicwash.com/php/App/procesar_tecnico.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',

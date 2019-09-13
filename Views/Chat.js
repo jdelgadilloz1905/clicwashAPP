@@ -34,7 +34,7 @@ export default class Chat extends Component {
             error: null
         });
       
-        fetch('htpps://clicwash.com/php/App/api_chat_cita.php', {
+        fetch('https://clicwash.com/php/App/api_chat_cita.php', {
             method: 'POST',
             header: {
                 Accept: 'application/json',
@@ -71,7 +71,7 @@ export default class Chat extends Component {
       let id_usuario = this.state.Id_Global;
       let mensaje = this.state.mensaje;
       
-      fetch('htpps://clicwash.com/php/App/api_subir_chat.php', {
+      fetch('https://clicwash.com/php/App/api_subir_chat.php', {
             method: 'POST',
             header: {
                 Accept: 'application/json',

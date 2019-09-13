@@ -89,7 +89,7 @@ export default class Gestion_Cerrar_Pedido extends Component {
 
         //API que usa fetch para ingresar datos a la base de datos a través del script php
 
-        fetch('htpps://clicwash.com/php/App/upload_cerrar_pedido.php',{
+        fetch('https://clicwash.com/php/App/upload_cerrar_pedido.php',{
         method: 'POST',
         headers: {
             'Content-Type': 'multipart/form-data',

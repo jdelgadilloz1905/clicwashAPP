@@ -26,9 +26,9 @@ export default class Analist_manejo_reclamos extends Component {
 
    };
   }
-  baseURL = 'htpps://clicwash.com/php/App/api_obtener_lista_reclamos.php';
+  baseURL = 'https://clicwash.com/php/App/api_obtener_lista_reclamos.php';
 
-  baseprocesarReclamoURL = 'htpps://clicwash.com/php/App/api_subir_sentencia_reclamo.php';
+  baseprocesarReclamoURL = 'https://clicwash.com/php/App/api_subir_sentencia_reclamo.php';
 
   componentDidMount(){
     
@@ -189,7 +189,7 @@ export default class Analist_manejo_reclamos extends Component {
                               </Text>
                               
                               <Text style={{color: 'blue'}}
-                                    onPress={() => Linking.openURL(`htpps://clicwash.com/php/App/fotos_cita_respaldo_movil.php?id=${reclamos.id_cita}`)}>
+                                    onPress={() => Linking.openURL(`https://clicwash.com/php/App/fotos_cita_respaldo_movil.php?id=${reclamos.id_cita}`)}>
                                     Fotos asociadas al pedido cargadas por el tecnico 
                               </Text>
 

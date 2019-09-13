@@ -96,7 +96,7 @@ export default class Registrarse extends Component {
 
     login = () => {
           
-           fetch('htpps://clicwash.com/php/App/sesion.php', {
+           fetch('https://clicwash.com/php/App/sesion.php', {
               method: 'POST',
               header: {
                   Accept: 'application/json',

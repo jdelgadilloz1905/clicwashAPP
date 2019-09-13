@@ -49,7 +49,7 @@ export default class Validar_telefono extends Component {
           //alert(this.state.correo);
 
 
-           fetch('htpps://clicwash.com/php/App/validarCode.php', {
+           fetch('https://clicwash.com/php/App/validarCode.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',

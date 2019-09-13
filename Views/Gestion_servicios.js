@@ -50,7 +50,7 @@ export default class Gestion_Servicios extends Component {
             error: null
         });
       
-        fetch('htpps://clicwash.com/php/App/api_gestionar_cita.php', {
+        fetch('https://clicwash.com/php/App/api_gestionar_cita.php', {
                 method: 'POST',
                 header: {
                     Accept: 'application/json',
@@ -89,7 +89,7 @@ export default class Gestion_Servicios extends Component {
           error: null
       });
   
-      fetch('htpps://clicwash.com/php/App/api_obtener_cobros_citas.php', {
+      fetch('https://clicwash.com/php/App/api_obtener_cobros_citas.php', {
             method: 'POST',
             header: {
                 Accept: 'application/json',
@@ -168,7 +168,7 @@ export default class Gestion_Servicios extends Component {
   
       
 
-      fetch('htpps://clicwash.com/php/App/api_procesar_cobro_final.php', {
+      fetch('https://clicwash.com/php/App/api_procesar_cobro_final.php', {
             method: 'POST',
             header: {
                 Accept: 'application/json',

@@ -121,7 +121,7 @@ export default class AddSubscription extends React.Component {
 
 enviarToken = (token) => {
  
-       fetch('htpps://clicwash.com/php/App/subir_metodo_pago.php', {
+       fetch('https://clicwash.com/php/App/subir_metodo_pago.php', {
        method: 'POST',
        header: {
           Accept: 'application/json',

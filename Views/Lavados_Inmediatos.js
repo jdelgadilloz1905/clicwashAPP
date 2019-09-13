@@ -28,7 +28,7 @@ export default class Lavados_Agendados extends Component {
       error: null
     });
     
-    fetch('htpps://clicwash.com/php/App/obtener_citas_inmediata.php', {
+    fetch('https://clicwash.com/php/App/obtener_citas_inmediata.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',
@@ -72,7 +72,7 @@ export default class Lavados_Agendados extends Component {
     console.log(id_analista);
 
   
-        fetch('htpps://clicwash.com/php/App/api_tomar_cita.php', {
+        fetch('https://clicwash.com/php/App/api_tomar_cita.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',

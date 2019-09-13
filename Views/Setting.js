@@ -136,7 +136,7 @@ login = () => {
           //alert(this.state.correo);
 
 
-           fetch('htpps://clicwash.com/php/App/actualizar_datos_basicos.php', {
+           fetch('https://clicwash.com/php/App/actualizar_datos_basicos.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',

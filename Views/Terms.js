@@ -15,7 +15,7 @@ export default class Terms extends React.Component {
             error: null
         }
     }
-    baseURL = 'htpps://clicwash.com/php/App/obtener_Terms.php';
+    baseURL = 'https://clicwash.com/php/App/obtener_Terms.php';
     
     getData = (ev)=>{
         this.setState({loaded:false, error: null});

@@ -78,7 +78,7 @@ export default class Reserva_5 extends Component {
 
     crear_cita = () => { 
 
-           fetch('htpps://clicwash.com/php/App/crear_cita.php', {
+           fetch('https://clicwash.com/php/App/crear_cita.php', {
            method: 'POST',
            header: {
               Accept: 'application/json',
