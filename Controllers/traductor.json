@@ -1,0 +1,26 @@
+{
+  "en":{
+    "side_faq":"F.A.Q.",
+    "side_setting":"Settings",
+    "side_account":"Account",
+    "side_orders":"Washing Ordes",
+    "side_payments":"Payments & Refunds",
+    "side_salir":"Sign Out",
+    "inicio_b1":"Login",
+    "inicio_b2":"Create you account",
+    "login_access":"LOGIN TO ACCESS",
+    "valid_number":"Before continuing, we need to validate your telephone number"
+  },
+  "es":{
+    "side_faq":"Preguntas Frecuentes",
+    "side_setting":"Opciones",
+    "side_account":"Cuenta",
+    "side_orders":"Ordenes de lavado",
+    "side_payments":"Pagos y Reembolsos",
+    "side_salir":"Salir",
+    "inicio_b1":"Iniciar Sesion",
+    "inicio_b2":"Crea tu cuenta",
+    "login_access":"INICIAR SESIÓN",
+    "valid_number":"Antes de continuar, debemos validar su número de teléfono"
+  }
+}
